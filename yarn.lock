@@ -532,7 +532,7 @@
     pirates "^3.0.1"
     source-map-support "^0.4.2"
 
-"@babel/runtime@^7.0.0-beta.36":
+"@babel/runtime@^7.0.0-beta.42":
   version "7.0.0-beta.42"
   resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.0.0-beta.42.tgz#352e40c92e0460d3e82f49bd7e79f6cda76f919f"
   dependencies:
@@ -1040,9 +1040,9 @@ eslint-config-airbnb-base@^12.1.0:
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
-eslint-config-node-project@^1.3.0:
-  version "1.5.0"
-  resolved "http://registry.npm.taobao.org/eslint-config-node-project/download/eslint-config-node-project-1.5.0.tgz#d9d4141619a6907c9aeb6cdc2ea66dc1dd10c0d0"
+eslint-config-node-project@^1.5.0:
+  version "1.6.0"
+  resolved "http://registry.npm.taobao.org/eslint-config-node-project/download/eslint-config-node-project-1.6.0.tgz#79d0bf5536b53ad2e195850400e8ece48868885d"
   dependencies:
     eslint "^4.18.2"
     eslint-config-airbnb-base "^12.1.0"
