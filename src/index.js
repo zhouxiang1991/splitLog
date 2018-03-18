@@ -28,6 +28,8 @@ export default (cronTime = '0 0 0 * * *') => {
         execSync('cp ./logs/err/err.log ./logs/err/$(date +"%Y-%m-%d").log');
         execSync('> ./logs/err/err.log');
       }
+      execSync('find ./logs/out -atime +30 -type f | xargs rm -rf');
+      execSync('find ./logs/err -atime +30 -type f | xargs rm -rf');
     },
     start: false,
     timeZone: 'Asia/Shanghai',
